@@ -78,12 +78,12 @@
     padding-left: 100px;
 }
 .button2{
-    background-color:#43BA7;
-    padding:15px 45px 15px 45px;
+    background-color: #43BA7;
+    padding: 15px 45px 15px 45px;
     margin:50px 10px 0px 100px;
     border-radius:6px;
     background-color:#43BA7F;
-    color:#FAFAFB;
+    color: #FAFAFB;
     cursor: pointer;
 }
 .button2:hover{
@@ -209,7 +209,7 @@
 }
 .top{
     background-image: url("girl.bg.jpg");
-    height: 85vh;
+    height: 78vh;
     color: #FAFAFB;
     display: flex;
     padding-bottom: 20px;  
@@ -231,6 +231,8 @@
 .ooo{
   
       font-size: 50px;
+      margin-bottom: 50px;
+      margin-top: 0px;
 
 }
 
@@ -266,11 +268,15 @@
     margin-bottom:0px;
     font-size:13.5px;
     border-radius: 9px; 
+    color: #FAFAFB;
+}
+input::placeholder {
+    color: #FAFAFB;
 }
 .button4{
     background-color:#43BA7;
       padding:15px 45px 15px 45px;
-      margin:30px 10px 0px 0px;
+      margin:50px 10px 0px 0px;
       border-radius:6px;
       background-color:#FF511A;
       color:#FAFAFB;
@@ -280,7 +286,7 @@
     background-color: #9b2f0e;
 }
 .girl{
-    height: 100vh;
+    margin-top: -50px;
 }
 .slide1{
     color:#FF511A;
@@ -313,3 +319,9 @@
     justify-content: center;
     align-items: center;
 }
+ @media (max-width: 768px) {
+            #Tools{
+                 background-color: #FF511A;}
+            
+            }
+            
