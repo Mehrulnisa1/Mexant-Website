@@ -18,6 +18,13 @@
 .services{
     padding:80px 20px 0px 40px;
 }
+.yoyo{
+    color:#FF511A;
+    text-decoration: none;
+}
+.yoyo:hover{
+   color:#FAFAFB; 
+}
 .services:hover{
         color: #FF511A;   
     }
@@ -54,6 +61,7 @@
 }
 .button:hover{
     color: #FF511A;
+    background-color: #116039;
 }
 .orange{
     color: #FF511A;
@@ -78,13 +86,13 @@
     padding-left: 100px;
 }
 .button2{
-    background-color: #43BA7;
+    background-color:#43BA7;
     padding: 15px 45px 15px 45px;
     margin:50px 10px 0px 100px;
     border-radius:6px;
     background-color:#43BA7F;
     color: #FAFAFB;
-    cursor: pointer;
+    cursor:pointer;
 }
 .button2:hover{
     background-color: #116039;
